@@ -67,11 +67,25 @@ Rather than jumping back to the API, which returns control to the program in the
 
 ![Figure 5.17 – A hooking function with a trampoline](./images/api_hooking_trampoline.png)
 
-### Microsoft Detours
+### [Microsoft Detours](https://www.microsoft.com/en-us/research/project/detours/publications/)
 
 ![Figure 1 - Invocation with and without interception](./images/invocation_trampoline.png)
 
 Detours is a software package for re-routing Win32 APIs underneath applications. For almost twenty years, has been licensed by hundreds of ISVs and used by nearly every product team at Microsoft.
+
+### MinHook
+
+#### [Overview](https://deepwiki.com/TsudaKageyu/minhook/1-minhook-overview)
+
+MinHook is a minimalistic API hooking library for x86/x64 Windows applications. It provides a straightforward way to intercept function calls to Windows APIs or any other functions by redirecting execution flow from original functions to user-defined detour functions. The library is designed to be lightweight, efficient, and easy to use while maintaining a small footprint.
+
+This document provides a high-level overview of MinHook's purpose, features, architecture, and core functionality
+
+---
+
+#### [Function Hooking Mechanism](https://deepwiki.com/TsudaKageyu/minhook/1-minhook-overview#function-hooking-mechanism)
+
+MinHook works by modifying the first few bytes of the target function to redirect execution to a user-defined detour function. The original bytes of the target function are preserved in a trampoline function.
 
 ## Swift on Windows
 
