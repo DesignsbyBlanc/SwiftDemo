@@ -1,0 +1,5 @@
+module MinHook [system] {
+    header "C:/stuff/SwiftDemo/vcpkg/packages/minhook_x64-windows/include/MinHook.h"
+    link "minhook.x64"
+    export *
+}
