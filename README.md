@@ -1,4 +1,4 @@
-# Swift Mentorship 2026 Demo Write-up
+# [Swift Mentorship](https://www.swift.org/mentorship/) 2026 Demo Write-up
 
 This demo is designed to demonstrate how Swift on Windows can be used as a path towards modernizing legacy codebases in use cases such as API-hooking.
 
