@@ -28,7 +28,8 @@ SwiftDemo
 │               └── minhook.x64.lib
 ├── .gitignore
 ├── Package.swift
-└── build_instructions.md
+├── build_instructions.md
+└── README.md
 
 ```
 
