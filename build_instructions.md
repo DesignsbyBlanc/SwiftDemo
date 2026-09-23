@@ -1,6 +1,24 @@
 # Build instructions for API-hooking demo based on MinHook
 
-### Build:
+### Instructions:
+
+1. `git clone https://github.com/DesignsbyBlanc/SwiftDemo.git`
+2. `cd SwiftDemo`
+3. Install vcpkg and MinHook
+
+   ```cmd
+    git clone https://github.com/microsoft/vcpkg
+
+    .\vcpkg\bootstrap-vcpkg.bat
+
+    .\vcpkg\vcpkg integrate install
+
+    .\vcpkg\vcpkg install minhook
+   ```
+4. Update environment variables and MinHook references to the appropriate URIs
+5. `swift run SwiftDemo`
+
+### Understanding this repo:
 
 #### Directory Structure:
 
@@ -411,18 +429,5 @@ PS C:\stuff\SwiftDemo>
 
 ```
 
-### Instructions:
 
-1. Install vcpkg and MinHook`
-   ```cmd
-    git clone https://github.com/microsoft/vcpkg
-
-    .\vcpkg\bootstrap-vcpkg.bat
-
-    .\vcpkg\vcpkg integrate install
-
-    .\vcpkg\vcpkg install minhook
-   ```
-2. Update environment variables and MinHook references to the appropriate URIs
-3. `swift run SwiftDemo`
 
