@@ -2,9 +2,10 @@
 
 ### Instructions:
 
-1. `git clone https://github.com/DesignsbyBlanc/SwiftDemo.git`
-2. `cd SwiftDemo`
-3. Install vcpkg and MinHook
+1. Install [Swift](https://www.swift.org/install/windows/) on Windows.
+2. `git clone https://github.com/DesignsbyBlanc/SwiftDemo.git`
+3. `cd SwiftDemo`
+4. Install vcpkg and MinHook
 
    ```cmd
     git clone https://github.com/microsoft/vcpkg
@@ -15,8 +16,8 @@
 
     .\vcpkg\vcpkg install minhook
    ```
-4. Update environment variables and MinHook references to the appropriate URIs
-5. `swift run SwiftDemo`
+5. Update environment variables and MinHook references to the appropriate URIs
+6. `swift run SwiftDemo`
 
 ### Understanding this repo:
 
